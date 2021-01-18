@@ -1,0 +1,58 @@
+#form-header-reg {
+  background: #ff5f6d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#form-header-log {
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#form-heading {
+  color: rgba(0, 0, 0, 0.6);
+  border: 8px rgba(255, 255, 255, 0.8) solid;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#input-field-form {
+  border: none;
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid;
+  padding: 5px;
+
+  background: transparent;
+  margin-bottom: 32px;
+  width: 75%;
+  transition-duration: 300ms;
+}
+
+#input-field-form:hover,
+#input-field-form:focus {
+  border: 1px rgba(0, 0, 0, 0.274) solid;
+  width: 100%;
+  border-radius: 8px;
+  transition-duration: 250ms;
+}
+
+#form-button {
+  width: 30%;
+  margin: 24px;
+}
